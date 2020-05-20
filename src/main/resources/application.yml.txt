@@ -9,7 +9,7 @@ spring:
     show-sql: true
     hibernate:
       # Hibernate ddl auto (validate, create, create-drop, update)
-      ddl-auto: none
+      ddl-auto: create
       # Naming strategy
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 
